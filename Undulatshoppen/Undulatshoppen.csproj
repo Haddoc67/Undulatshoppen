@@ -78,6 +78,7 @@
     <Content Include="images\velkomstbillede.jpg" />
     <Content Include="images\logo.png" />
     <Content Include="index.html" />
+    <Content Include="Kassen.html" />
     <Content Include="Kontakt.html" />
     <Content Include="Map.html" />
     <Content Include="packages.config" />

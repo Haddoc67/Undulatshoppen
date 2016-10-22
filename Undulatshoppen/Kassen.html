@@ -1,0 +1,112 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="da">
+<head>
+    <meta charset="utf-8" />
+    <title>Kassen</title>
+    <link href="styles/styles.css" rel="stylesheet" />
+</head>
+<body>
+    <header id="topbar">
+        <div>
+            <a class="logo" href="index.html">
+                <img src="images/logo.png" alt="logo" height="12" width="12" />
+            </a>
+            <span id="overskrift">Undulat Shoppen</span>
+            <input type="search" class="searchbox" placeholder="Søg i butikken" />
+        </div>
+
+        <nav class="navbar">
+            <ul>
+                <li><a class="navlink" href="index.html">Forside </a></li>
+                <li><a class="navlink" href="Produkter.html">Produkter</a></li>
+                <li><a class="navlink" href="Map.html">Kort</a></li>
+                <li><a class="navlink" href="Kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav>
+
+    </header>
+        <div id="velkomstbillede">
+        <img src="images/velkomstbillede.jpg" alt="_blank" height="130" width="1000"/>
+        </div>
+
+    <section class="produktindhold">
+        <header class="blockheader">
+            <span>Kassen</span>
+        </header>
+
+
+
+
+        <form id="bestillingsForm" action="#" method="post">
+            <fieldset class="box">
+                <legend>Dine oplysninger</legend>
+                <div>
+
+                    <p>
+                        <label class="tekstlabel" for="fornavnInput">Fornavn</label>
+                        <input id="fornavnInput" name="Fornavn" type="text"
+                                placeholder="Skriv dit fornavn"
+                                required="required"
+                               autofocus="autofocus" class="tekstinput" maxlength="20"/>
+                    </p>
+
+                    <p>
+                        <label class="tekstlabel" for="efternavnInput">Efternavn</label>
+                        <input id="efternavnInput" name="Efternavn" type="text"
+                               placeholder="skriv dit efternavn"
+                               required="required"
+                               class="tekstinput" size="10" maxlength="30" />
+                    </p>
+
+                    <p>
+                        <label class="tekstlabel" for="emailInput">Email</label>
+                        <input id="emailInput" name="Email" type="email" class="tekstinput
+                               placeholder="xx@email.com,  eksempel"
+                               required="required" />
+
+                    </p>
+
+                    <p>
+                        <label class="tekstlabel" for="tlfInput">Telefon Nummer</label>
+                        <input id="tlfInput" name="tlf" type="tel" class="tekstinput"
+                               placeholder="gyldigt dansk telefon nummer" 
+                               required="required" />
+                    </p>
+
+                    <p>
+                        <label class="tekstlabel" for="adresseInput">Vejnavn</label>
+                        <input id="adresseInput" name="Adresse" type="text" class="tekstinput"
+                               placeholder="Vejnavn + nummer + evt. etaget og side (th, tv, mf.)"
+                               required="required" />
+                    </p>
+
+                    <p>
+                        <label class="tekstlabel" for="postnummerInput">Postnummer</label>
+                        <input id="postnummerInput" name="Postnummer" type="text" class="tekstinput"
+                               placeholder="postnummer" 
+                               required="required" />
+                    </p>
+
+                    <p>
+                        <label class="tekstlabel" for="byInput">By</label>
+                        <input id="byInput" name="By" type="text" class="tekstinput"
+                               placeholder="By"
+                               required="required"/>
+                    </p>
+
+                    <p>
+                        <label class="tekstlabel" for="bemærkningerInput">Bemærkninger</label>
+                        <input id="bemærkningerInput" name="Bemærkninger" type="text" class="tekstinput" />
+                    </p>
+
+                </div>
+            </fieldset>
+
+            <input type="submit" class="submitbutton" value="Bestil" />
+
+        </form>
+
+    </section>
+
+</body>
+</html>
