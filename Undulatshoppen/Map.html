@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<head>
+            <title>Kort</title>
+            <meta charset="utf-8" />
+            <link href="styles/styles.css" rel="stylesheet"/>
+            <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+            <script src="scripts/geolocation.js"></script>
+</head>
+<body>
+    <header id="topbar">
+        <div>
+            <a class="logo" href="index.html">
+                <img src="images/logo.png" alt="logo" height="12" width="12" />
+            </a>
+            <span id="overskrift">Undulat Shoppen</span>
+            <input type="search" class="searchbox" placeholder="Søg i butikken" />
+        </div>
+
+        <nav class="navbar">
+            <ul>
+                <li><a class="navlink" href="index.html">Forside </a></li>
+                <li><a class="navlink" href="Produkter.html">Produkter</a></li>
+             <li><a class="navlink" href="Kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <div id="velkomstbillede">
+    <img src="images/velkomstbillede.jpg" alt="_blank" height="130" width="1000"/>
+    </div>
+
+    <section class="lokation">
+        <header class="blockheader">
+            <span>Her bor vi!</span>
+        </header>
+
+        <div id="map"></div>
+
+        <div id="ruteplanlægning"></div>
+
+    </section>
+
+<script>
+    document.addEventListener("DOMContentLoaded", createDirectionsMap, false);
+</script>
+</body>

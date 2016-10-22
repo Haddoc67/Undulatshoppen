@@ -66,7 +66,22 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="images\australsk blå.jpg" />
+    <Content Include="images\australsk gul.jpg" />
+    <Content Include="images\australsk hvid.jpg" />
+    <Content Include="images\australsk lyserød.jpg" />
+    <Content Include="images\engelsk blå.jpg" />
+    <Content Include="images\engelsk gul.jpg" />
+    <Content Include="images\engelsk gulgrøn.jpg" />
+    <Content Include="images\engelsk hvid.jpg" />
+    <Content Include="images\engelsk lilla.jpg" />
+    <Content Include="images\velkomstbillede.jpg" />
+    <Content Include="images\logo.png" />
+    <Content Include="index.html" />
+    <Content Include="Kontakt.html" />
+    <Content Include="Map.html" />
     <Content Include="packages.config" />
+    <Content Include="fonts\HOMINIS.ttf" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -75,11 +90,17 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Produkter.html" />
+    <Content Include="scripts\dragAndDrop.js" />
+    <Content Include="scripts\geolocation.js" />
+    <Content Include="scripts\tilføjkurv.js" />
+    <Content Include="styles\styles.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

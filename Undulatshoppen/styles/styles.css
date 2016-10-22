@@ -1,0 +1,223 @@
+﻿@charset 'utf-8'; /*ikke påkrævet! men browservenlig*/
+
+
+/*#region Farvekoder */
+
+/* Farvekoder
+    #F40000       - rødlig/orange
+    #A80000       - mørkere
+    #1E00A8       - blå
+    #0F0056       - mørkeblå
+    #1546C9       - lyseblå
+    #008204       - grøn
+*/
+
+/*#endregion */
+/*#region Topbar */
+.logo {
+    float: left;
+    margin-right: 10px;
+}
+
+    .logo > img {
+        height: 60px;
+        width: 60px;
+    }
+    .logo:hover img {
+        transform: scale(1.20) skew(45deg, 5deg);
+        
+    }
+
+.searchbox {
+    float: right;
+    padding: 5px;
+    margin: 10px 10px;
+    width: 200px;
+}
+
+#overskrift {
+    font-size: 40px;
+    font-family: headerfont;
+    color: #1E00A8;
+    padding: 15px;
+    margin: 8px 0px;
+    font-weight: bold;
+    text-shadow: 0.12em 0.12em 0.3em #1546C9;
+    transition: all 2s;
+}
+#overskrift:hover {
+    color: #78ff6b;
+}
+
+.navbar {
+    border-top-left-radius:  1em;
+    border-top-right-radius: 1em;
+}
+
+/*#endregion */
+/*#region Fonts */
+
+@font-face {
+    font-family: 'HOMINIS';
+    src: url('../fonts/HOMINIS.ttf') format('truetype');
+}
+
+/*#endregion */
+/*#region Header */
+
+header {
+    font-weight: bold;
+}
+
+/*#endregion */
+/*#region Body */
+
+body {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*#endregion */
+/*#region Navbar */
+.navbar {
+    font-family: 'HOMINIS', Verdana, Arial, sans-serif;
+    background: linear-gradient(to right,#1E00A8,#F40000);
+    background-color: #1E00A8;
+    height: 45px;
+    width: 100%;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    padding-left: 5px;
+}
+
+    .navbar ul {
+        list-style: none;
+        padding: 0px;
+    }
+
+        .navbar ul li {
+            display: block;
+
+        }
+ .navlink {
+      height: 35px;
+     margin-left: 15px;
+      margin-right: 20px;
+      font-size: 18px;
+      float: left;
+      padding-top: 12px;
+      color: white;
+      text-decoration: none;
+ }
+ .navlink:hover {
+        opacity: 1;
+        color: #78ff6b; /*fallback farve*/
+        color: rgba(120, 100%, 42%, 0.75);
+        transform: scale(1.20);
+    }
+
+
+/*#endregion */
+/*#region Velkomsttekst */
+
+#velkomsttekst {
+    float: left;
+    width: 70%;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    column-count: 2;
+}
+
+    #velkomsttekst > header {
+        color: #1E00A8;
+        font-size: 15px;
+        font-weight: bold;
+        margin-bottom: 3px;
+    }
+
+/*#endregion */
+/*#region links */
+
+#nyttigelinks {
+    float: right;
+    width: 30%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+    #nyttigelinks > header {
+        margin-left: 40px;
+        color: #1E00A8;
+        font-size: 15px;
+        margin-bottom: 3px;
+        font-weight: bold;
+    }
+
+    #nyttigelinks > ul {
+        list-style: none;
+    }
+
+        #nyttigelinks > ul > li {
+            margin-bottom: 3px;
+        }
+
+/*#endregion */
+/*#region Footer */
+
+footer {
+    clear: both;
+    width: 100%;
+    background-color: #1546C9;
+    margin: 200px 0px 40px;
+    padding: 5px;
+    border-bottom-left-radius:  1em;
+    border-bottom-right-radius: 1em;
+}
+
+/*#endregion */
+
+/*Produkter*/
+/*#region Produkter */
+
+/*#region Introtekst-align */
+
+#produkter h1 {
+    text-align: center;
+}
+
+#produkter p {
+    text-align: center;
+}
+
+/*#endregion */
+
+.produktbillede {
+    height: 5em;
+    width: 5em;
+    display: -webkit-box;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    margin-right: 100px;
+    
+}
+
+
+.produkttype {
+    margin-left: auto;
+}
+
+ .australskeundulater {
+     list-style-type: none;
+ }
+  
+ 
+.engelskeundulater {
+     list-style-type: none;
+ }
+}
+
+
+
+/*#endregion */
